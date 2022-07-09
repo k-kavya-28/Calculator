@@ -1,0 +1,49 @@
+body {
+    background-color: pink !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+div.container {
+    width: 40rem;
+    background-color: whitesmoke;
+}
+
+table.table {
+    margin: 3rem 0rem;
+    padding: 0rem 0rem; 
+    position: relative;
+    border: 1px solid black;
+    height: 85vh;
+    border: 2rem;
+    border-color: whitesmoke;
+    text-align: center;
+    box-shadow: 5px;
+}
+
+table.table #result {
+    height: 12vh;
+}
+
+table.table #Calculator {
+    height: 23vh;
+    background-color: palevioletred;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table.table #AC, #⌫, #per, #÷, #x, #sub, #add, #equal {
+    color: whitesmoke;
+    background-color: rgba(29, 3, 29, 0.872);
+}
+
+table.table #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #dot {
+    background-color: rgb(29, 3, 29);
+    color: whitesmoke;
+}
+
+table.table td:hover {
+    font-weight: 1000;
+    cursor: pointer;
+}
