@@ -11,7 +11,7 @@ div.container {
 }
 
 table.table {
-    margin: 3rem 0rem;
+    margin: 0.5rem 0rem;
     padding: 0rem 0rem; 
     position: relative;
     border: 1px solid black;
@@ -22,8 +22,9 @@ table.table {
     box-shadow: 5px;
 }
 
-table.table #result {
-    height: 12vh;
+table.table .display-box {
+    height: 7.5vh;
+    width: 100%;
 }
 
 table.table #Calculator {
@@ -36,10 +37,14 @@ table.table #Calculator {
 table.table #AC, #⌫, #per, #÷, #x, #sub, #add, #equal {
     color: whitesmoke;
     background-color: rgba(29, 3, 29, 0.872);
+    /* background-color: rgb(29, 3, 29); */
+
 }
 
 table.table #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #dot {
     background-color: rgb(29, 3, 29);
+    /* background-color: rgba(29, 3, 29, 0.872); */
+
     color: whitesmoke;
 }
 
@@ -47,3 +52,17 @@ table.table td:hover {
     font-weight: 1000;
     cursor: pointer;
 }
+
+input[type=button] {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 16px;
+ }
+
+ input[type=button]:hover {
+    font-weight: 1000;
+    cursor: pointer;
+ }
