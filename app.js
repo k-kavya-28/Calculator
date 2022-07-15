@@ -14,7 +14,5 @@ function calculate() {
 //evaluates exp and returns the result
 
 function back() {
-    var bkspc = document.getElementById('⌫').value;
-    // bkspc.text = bkspc.text.slice(-1);
-    document.getElementById('⌫').value += value.slice(-1)
+    document.getElementById('⌫').value = document.getElementById('⌫').value.slice(0,-1);
 }
