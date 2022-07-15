@@ -13,6 +13,13 @@ function calculate() {
 }
 //evaluates exp and returns the result
 
-function back() {
-    document.getElementById('⌫').value = document.getElementById('⌫').value.slice(0,-1);
-}
+// function back() {
+//     document.getElementById('⌫').value = document.getElementById('⌫').value.slice(0,-1);
+// }
+
+// function back() {
+//     var bkspc = document.getElementById("⌫").value;
+//     bkspc = bkspc.replace(bkspc[bkspc.lenght-1])
+// }
+
+
